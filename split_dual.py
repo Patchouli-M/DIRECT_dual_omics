@@ -32,10 +32,6 @@ def init(sample:str):
     os.system(cmd)
     '''
 
-
-
-
-
 def grep_f(seq:str,file:str,rate:float,spli_num:int):
 
     file1=file+"_1_val_1.fq"

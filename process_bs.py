@@ -165,14 +165,6 @@ def prepare_distin():
         cmd = "rm " + os.path.join(sample_dir,i+".bam")
         multi_sys_cmd(cmd)
 
-        
-        
-        
-
-
-
-
-
 get_sample()
 trim()
 lamdba_bismark()
